@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6616111268221415879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6616111268221415878}
+  - component: {fileID: 6616111268221415877}
+  m_Layer: 0
+  m_Name: Grass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6616111268221415878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6616111268221415879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6616111268221415877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6616111268221415879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3ca08ab2857c746897c55852ea7a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 1.5
+  hpRecovery: 0.05
+  plantGrowth:
+    startGrowthSize: 0.05
+    maxGrowthSize: 1
+    growthRateDays: 0.5
+  crowdingStats:
+    nearbySlowDist: 2
+    nearbySlowAmount: 0.3
+    nearbyKillDist: 1
+    nearbyKillAmount: 1.1
+    crowdingHurtRate: 0.2
+  lifespan:
+    startGrowthSize: 0.05
+    maxGrowthSize: 1
+    growthRateDays: 20
+  berryLaunchForce: 3
+  launchHorizVariation: 0.2
+  bladePrefab: {fileID: 6762939901387759784, guid: 7e1a192fb83f1dd4a94d6aca9c7a2519, type: 3}
+  seedPrefab: {fileID: 3454447711191041653, guid: 9ca99b9ac2189d94c8f34f9eb3e70163, type: 3}
+  bladeGrowth:
+    startGrowthSize: 0.03
+    maxGrowthSize: 0.7
+    growthRateDays: 0.85
+  maxBlades: 9
+  bladeAngDev: 70
+  seedSpawnChance: 0.3
+  seedGrowth:
+    startGrowthSize: 0.02
+    maxGrowthSize: 0.07
+    growthRateDays: 1.3

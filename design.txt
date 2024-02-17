@@ -1,0 +1,15 @@
+game idea - interstellar garden - gather plants from your environment, plant them in your settlement,
+	grow them (each plant has different growth conditions of light/soil/etc)
+
+find plants in the world where they will naturally be happy - some like shade, water, etc
+machines/structures - garden bed to use a diff soil type, bucket to carry a diff type of soil back to base,
+	composter to create fertilizer, rock crusher to break down soil into diff type
+	how do we build these?
+
+can unlock different planets to go to, with diff soil types, sunlight, & atmosphere conditions
+	can bring seeds from prev planets but they might not do so well since they're not adapted to this environment
+
+make it like frontierville - with bundles of certain plants you have to complete
+	refined products from plants? like jam/bread/etc
+
+how does water work? how do soil types work?
